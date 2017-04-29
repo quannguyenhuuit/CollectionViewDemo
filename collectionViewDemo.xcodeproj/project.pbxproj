@@ -14,6 +14,7 @@
 		361168341EB4992A009123F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361168321EB4992A009123F5 /* LaunchScreen.storyboard */; };
 		3611683F1EB4992A009123F5 /* collectionViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611683E1EB4992A009123F5 /* collectionViewDemoTests.swift */; };
 		3611684A1EB4992A009123F5 /* collectionViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361168491EB4992A009123F5 /* collectionViewDemoUITests.swift */; };
+		361168581EB49AB2009123F5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361168571EB49AB2009123F5 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		361168451EB4992A009123F5 /* collectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361168491EB4992A009123F5 /* collectionViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewDemoUITests.swift; sourceTree = "<group>"; };
 		3611684B1EB4992A009123F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361168571EB49AB2009123F5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				361168291EB4992A009123F5 /* AppDelegate.swift */,
 				3611682B1EB4992A009123F5 /* ViewController.swift */,
 				3611682D1EB4992A009123F5 /* Main.storyboard */,
+				361168571EB49AB2009123F5 /* MyCollectionViewCell.swift */,
 				361168301EB4992A009123F5 /* Assets.xcassets */,
 				361168321EB4992A009123F5 /* LaunchScreen.storyboard */,
 				361168351EB4992A009123F5 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				3611682C1EB4992A009123F5 /* ViewController.swift in Sources */,
 				3611682A1EB4992A009123F5 /* AppDelegate.swift in Sources */,
+				361168581EB49AB2009123F5 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
